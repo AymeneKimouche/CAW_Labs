@@ -1,0 +1,43 @@
+.app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .task-list {
+    width: 300px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .task {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .subtask {
+    margin-left: 20px;
+  }
+  
+  button {
+    margin-left: 5px;
+    cursor: pointer;
+  }
+  
+  button.done {
+    color: green;
+  }
+  
+  form {
+    margin-bottom: 10px;
+  }
+  
+  input {
+    padding: 5px;
+    margin-right: 5px;
+  }
+  
+
+  
